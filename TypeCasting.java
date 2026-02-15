@@ -20,8 +20,17 @@ public class TypeCasting {
        int d = (a * b) /c;
        System.out.println(d); */
 
-       int number = 'A';
-       System.out.println(number); 
+      /* int number = 'A';
+       System.out.println(number); */ 
 
+       byte b = 42;
+       char c = 'a';
+       short s = 1024;
+       int i = 50000;
+       float f = 5.67f;
+       double d = 0.1234;
+       double result = (f * b) + (i / c ) -  (d * s);
+       System.out.println((f * b) + " " + (i / c) + " " + (d * d));
+    System.out.println(result);  
     }
 }
