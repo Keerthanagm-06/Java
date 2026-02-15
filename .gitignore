@@ -16,5 +16,10 @@
 .vscode/
 .idea/
 
+# IntelliJ IDEA
+*.iml
+.idea/
+
+
 # Mac system files
 .DS_Store
